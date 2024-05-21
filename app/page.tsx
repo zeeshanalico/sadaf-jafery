@@ -22,11 +22,11 @@ export default function Home() {
       <IntroSection />
 
       <TwoImages />
-      <AboutSection />
       <Services />
       <AstrologyService />
-      {Contact()}
+      <Contact />
       <Reviews />
+      <AboutSection />
       <FloatingWhatsApp number='+92 300 0051248' />
       <div className="min-h-screen flex items-center justify-center bg-gray-100">
         <OptInForm />
@@ -38,7 +38,7 @@ export default function Home() {
 
 
 
-function Contact() {
+const Contact = () => {
   return (
     <>
       <div className="flex flex-col sm:flex-row justify-between items-center bg-gray-50 p-8 rounded-lg shadow-md">
@@ -67,7 +67,7 @@ function Contact() {
             height={50}
             className="mr-2"
           />
-          <span className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold bg-orange-400 p-2 rounded-full text-nowrap shadow-md">
+          <span className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold text-white bg-purple-600 p-2 rounded-full text-nowrap shadow-md">
             +92 300 0051248
           </span>
         </div>

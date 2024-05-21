@@ -23,7 +23,7 @@ const Navbar: React.FC = () => {
 
   return (
     <nav className="bg-red-600 p-2">
-      <div className="container mx-auto flex justify-between items-center">
+      <div className="container mx-auto flex justify-between items-center ">
         <Link href="/" passHref>
           <span className="text-white font-semibold cursor-pointer text-3xl">
             <Image src={logo} alt="logo Rohani Amil" width={70} height={50} className="" />

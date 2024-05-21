@@ -9,7 +9,11 @@ const Reviews = () => {
                 <div className="mx-auto max-w-xl text-center">
                     {/* <h2 className="text-lg font-semibold leading-8 tracking-tight text-indigo-600">
           Testimonials
+
+
         </h2> */}
+    
+
                     <p className="text-gray-900 text-3xl font-bold tracking-tight sm:text-4xl">
                         Why Clients Love Us
                     </p>

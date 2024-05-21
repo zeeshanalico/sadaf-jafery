@@ -26,7 +26,7 @@ const Services = () => {
             <div className="absolute inset-0 rounded-2xl ring-1 ring-inset ring-gray-900/10"></div>
           </div>
           <div className="max-w-xl mt-8">
-            <h3 className="text-gray-900 text-lg font-semibold leading-6">
+            <h3 className="text-gray-900 text-lg font-semibold leading-6 urdu">
               کالا جادو کا توڑ
             </h3>
             <p className="text-gray-700 mt-5 line-clamp-3 text-sm leading-6">
@@ -45,7 +45,7 @@ const Services = () => {
             <div className="absolute inset-0 rounded-2xl ring-1 ring-inset ring-gray-900/10"></div>
           </div>
           <div className="max-w-xl mt-8">
-            <h3 className="text-gray-900 text-lg font-semibold leading-6">
+            <h3 className="text-gray-900 text-lg font-semibold leading-6 urdu">
               من پسند شادی
             </h3>
             <p className="text-gray-700 mt-5 line-clamp-3 text-sm leading-6">
@@ -64,7 +64,7 @@ const Services = () => {
             <div className="absolute inset-0 rounded-2xl ring-1 ring-inset ring-gray-900/10"></div>
           </div>
           <div className="max-w-xl mt-8">
-            <h3 className="text-gray-900 text-lg font-semibold leading-6">
+            <h3 className="text-gray-900 text-lg font-semibold leading-6 urdu">
               طلاق کا مسلہ
             </h3>
             <p className="text-gray-700 mt-5 line-clamp-3 text-sm leading-6">

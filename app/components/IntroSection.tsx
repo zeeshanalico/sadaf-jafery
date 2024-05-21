@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import img from './../assets/banner1.jpg';
+import whatsapp from '../assets/whataspp-logo.png'
 
 const IntroSection = () => {
   return (
@@ -28,6 +29,7 @@ const IntroSection = () => {
               علم ایک حقیقت ہے اگر کرنے والا سچا عامل ہو تو . اگر آپ کسی بھی مسلے کا شکار ہیں جیسے من پسند شادی ، والدین کو راضی کرنا ، محبّت میں ناکامی ، شوہر کو راہ راست پر لانا ، شوہر کو ناجائز کاموں سے روکنا ، طلاق کا مسلہ ، تعویذات کی کاٹ ، کالا جادو کا توڑ ، کالا علم کی رکاوٹ ، پسند کا رشتہ ، گھریلو لڑائی جھگڑا ، اولاد کا مسلہ یا جھگڑنا ، محبّت میں ناکامی ، شوہر کو راہ راست پر لانا ، شوہر کو ناجائز کاموں سے روکنا ، طلاق کا مسلہ ، تعویذات کی کاٹ ، کالا جادو کا توڑ ، کالا علم کی رکاوٹ ، پسند کا رشتہ ، گھریلو لڑائی جھگڑا ، اولاد کا مسلہ یا کسی بھی طرح کے مسائل کا شکار ہیں تو فوری پروفیسر عامل سیدہ صدف جعفری سے رابطہ کریں اور ان مسائل کا حل کروائیں ۔
             </p>
           </div>
+          <Contact />
         </div>
         <div className="relative lg:w-1/3 hidden lg:block order-first lg:pb-8">
           {/* Uncomment this block if you want to use the image */}
@@ -45,3 +47,20 @@ const IntroSection = () => {
 };
 
 export default IntroSection;
+
+const Contact = () => {
+  return (
+    <>
+      <div className='m-auto mt-23'>
+        <button className="w-44 p-3 my-18 text-center m-auto ">
+
+           <a href="tel:03001712141" className="rounded-md bg-purple-700 px-3.5 py-2.5 text-sm font-semibold shadow-sm text-white ">
+          Contact Us
+        </a>
+        </button>
+      </div>
+    </>
+  );
+}
+
+
