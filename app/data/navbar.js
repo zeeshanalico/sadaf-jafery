@@ -50,7 +50,7 @@ const menuData = [
             { id: 48, label: "Wazifa For Job", url: "blog/wazifa-for-job/" },
         ],
     },
-    { id: 146, label: "About us", url: "aboutus" },
+    { id: 146, label: "About us", url: "about" },
     { id: 151, label: "Blog", url: "blog" },
 ];
 export default menuData;

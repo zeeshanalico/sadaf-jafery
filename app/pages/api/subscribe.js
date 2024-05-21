@@ -2,7 +2,8 @@ import nodemailer from 'nodemailer';
 
 export default async function handler(req, res) {
   if (req.method === 'POST') {
-    const { name, email } = req.body;
+    const { name, email, } = req.body;
+console.log(name, email);
 
     const transporter = nodemailer.createTransport({
       host: process.env.EMAIL_HOST,

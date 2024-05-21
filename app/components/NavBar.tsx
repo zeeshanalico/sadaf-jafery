@@ -3,6 +3,7 @@ import Link from 'next/link';
 import menuData from '../data/navbar';
 import logo from '../assets/logo.png'
 import Image from 'next/image';
+import scrolltosection from '../utils/scrolltosection'
 
 const Navbar: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -39,7 +40,7 @@ const Navbar: React.FC = () => {
               onMouseLeave={handleMouseLeave}
               onClick={() => handleClickMenu(menuItem.label)}
             >
-              <Link href={menuItem.url} passHref>
+              {menuItem.url=='about' ? <button className='text-white hover:text-red-300' onClick={()=>scrolltosection('about')}>about</button> : <Link href={menuItem.url} passHref>
               <span className="text-white hover:text-red-200 transition duration-300 cursor-pointer flex items-center lg:px-2">
                 {menuItem.label}
                 {menuItem.subMenu && (
@@ -58,7 +59,7 @@ const Navbar: React.FC = () => {
                   </svg>
                 )}
               </span>
-              </Link>
+              </Link>}
               {(menuItem.subMenu && (hoveredMenu === menuItem.label || clickedMenu === menuItem.label)) && (
                 <div className="z-20 absolute left-0 mt-2 w-48 bg-white shadow-lg rounded-md py-2 transition-opacity duration-200 opacity-100">
                   {menuItem.subMenu.map((subMenuItem) => (
