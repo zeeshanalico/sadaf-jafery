@@ -1,6 +1,8 @@
 import React from 'react'
 import Image from 'next/image'
 import img from './../assets/wedding-hands.jpg'
+import kalajado from '../assets/kaljadoo.jpg'
+import divorce from '../assets/divorce.jpg'
 const Services = () => {
   return (
     <div><div className=" bg-gray-50 py-16 sm:py-24">
@@ -17,7 +19,7 @@ const Services = () => {
         <article className="flex flex-col items-start justify-between">
           <div className="relative w-full">
             <Image
-              src={img}
+              src={kalajado}
               alt="Service Image"
               className="aspect-[16/9] w-full rounded-2xl object-cover sm:aspect-[2/1] lg:aspect-[3/2]"
               width={672}
@@ -56,7 +58,7 @@ const Services = () => {
         <article className="flex flex-col items-start justify-between">
           <div className="relative w-full">
             <Image
-              src={img} alt="Service Image"
+              src={divorce} alt="Service Image"
               className="aspect-[16/9] w-full rounded-2xl object-cover sm:aspect-[2/1] lg:aspect-[3/2]"
               width={672}
               height={448}

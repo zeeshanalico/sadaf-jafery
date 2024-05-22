@@ -1,6 +1,9 @@
 import React from 'react'
 import Image from 'next/image'
 import img from './../assets/banner1.jpg'
+import david from '../assets/david.jpg'
+import methew from '../assets/mathew.jpg'
+import terrance from '../assets/terrance.jpg'
 
 const Reviews = () => {
     return (
@@ -24,14 +27,14 @@ const Reviews = () => {
                 <div className="lg:gap-x-8 mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-x-6 gap-y-20 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols-3">
                     <div className="sm:gap-x-6 sm:space-y-0 flex gap-x-4 sm:flex-col">
                         <Image
-                            src={img}
+                            src={methew}
                             alt="Client Photo"
                             className="sm:w-32 sm:h-32 w-16 h-16 rounded-full bg-gray-100"
                             width={120}
                             height={120}
                         />
                         <div className="text-sm leading-6">
-                            <p className="text-gray-900 m-auto font-semibold">Sameera Ali</p>
+                            <p className="text-gray-900 m-auto font-semibold">Methew</p>
                             <p className="text-gray-700 mt-2 text-sm leading-6">
                                 “Professor Aamil Syeda Sadaf Jafri provided insightful guidance that has been life-changing. Highly recommended!”
                             </p>
@@ -39,14 +42,14 @@ const Reviews = () => {
                     </div>
                     <div className="sm:gap-x-6 sm:space-y-0 flex gap-x-4 sm:flex-col">
                         <Image
-                            src={img}
+                            src={terrance}
                             alt="Client Photo"
                             className="sm:w-32 sm:h-32 w-16 h-16 rounded-full bg-gray-100"
                             width={120}
                             height={120}
                         />
                         <div className="text-sm leading-6">
-                            <p className="text-gray-900 font-semibold">Ahmed Khan</p>
+                            <p className="text-gray-900 font-semibold">Terrance .C</p>
                             <p className="text-gray-700 mt-2 text-sm leading-6">
                                 “Accurate readings and practical advice. The best astrological service I have experienced!”
                             </p>
@@ -54,14 +57,14 @@ const Reviews = () => {
                     </div>
                     <div className="sm:gap-x-6 sm:space-y-0 flex gap-x-4 sm:flex-col">
                         <Image
-                            src={img}
+                            src={david}
                             alt="Client Photo"
                             className="sm:w-32 sm:h-32 w-16 h-16 rounded-full bg-gray-100"
                             width={120}
                             height={120}
                         />
                         <div className="text-sm leading-6">
-                            <p className="text-gray-900 font-semibold">Fatima Zahra</p>
+                            <p className="text-gray-900 font-semibold">David</p>
                             <p className="text-gray-700 mt-2 text-sm leading-6">
                                 “Amazing insights and very helpful guidance. I recommend their services to everyone.”
                             </p>
