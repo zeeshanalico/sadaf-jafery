@@ -9,6 +9,7 @@ interface SubMenu {
     id: number;
     label: string;
     url: string;
+    
 }
 
 interface MenuItem {

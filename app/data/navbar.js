@@ -1,5 +1,5 @@
 const menuData = [
-    { id: 64, label: "Home", url: "/" },
+    { id: 64, label: "Home", url: "/" ,subMenu:[]},
     // {
     //     id: 51,
     //     label: "Manpasand Shadi",
@@ -50,9 +50,9 @@ const menuData = [
     //         { id: 48, label: "Wazifa For Job", url: "blog/wazifa-for-job/" },
     //     ],
     // },
-    { id: 151, label: "Blog", url: "blog" },
-    { id: 146, label: "Contact", url: "contact" },
-    { id: 11, label: "Services", url: "services" },
-    { id: 16, label: "About us", url: "about" },
+    { id: 151, label: "Blog", url: "blog" ,subMenu:[]},
+    { id: 146, label: "Contact", url: "contact" ,subMenu:[]},
+    { id: 11, label: "Services", url: "services" ,subMenu:[]},
+    { id: 16, label: "About us", url: "about" ,subMenu:[]},
 ];
 export default menuData;
