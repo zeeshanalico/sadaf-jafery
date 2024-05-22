@@ -41,7 +41,7 @@ const Navbar: React.FC = () => {
               onClick={() => handleClickMenu(menuItem.label)}
             >
               {menuItem.url=='about' ? <button className='text-white hover:text-red-300' onClick={()=>scrolltosection('about')}>about</button> : <Link href={menuItem.url} passHref>
-              <span className="text-white hover:text-red-200 transition duration-300 cursor-pointer flex items-center lg:px-2">
+              <span className="text-white hover:text-red-200 hover:underline transition duration-300 cursor-pointer flex items-center lg:px-2">
                 {menuItem.label}
                 {menuItem.subMenu && (
                   <svg
@@ -64,7 +64,7 @@ const Navbar: React.FC = () => {
                 <div className="z-20 absolute left-0 mt-2 w-48 bg-white shadow-lg rounded-md py-2 transition-opacity duration-200 opacity-100">
                   {menuItem.subMenu.map((subMenuItem) => (
                     <Link key={subMenuItem.id} href={subMenuItem.url} passHref>
-                      <span className="text-nowrap block px-2 py-2 text-gray-800 hover:bg-red-200 transition duration-300 cursor-pointer">
+                      <span className="text-nowrap block px-2 py-2 text-gray-800 hover:bg-red-200  transition duration-300 cursor-pointer">
                         {subMenuItem.label}
                       </span>
                     </Link>
@@ -87,7 +87,7 @@ const Navbar: React.FC = () => {
             <div key={menuItem.id} className="relative">
               <Link href={menuItem.url} passHref>
               <span
-                className="px-1 py-1 text-white hover:text-red-200 transition duration-300 flex items-center cursor-pointer"
+                className="px-1 py-1 text-white hover:text-red-200 hover:underline transition duration-300 flex items-center cursor-pointer"
                 onClick={() => handleClickMenu(menuItem.label)}
               >
                 {menuItem.label}{menuItem.subMenu && (
@@ -111,7 +111,7 @@ const Navbar: React.FC = () => {
                 <div className="pl-4">
                   {menuItem.subMenu.map((subMenuItem) => (
                     <Link key={subMenuItem.id} href={subMenuItem.url} passHref>
-                      <span className="block px-2 py-1 text-white hover:text-red-200 transition duration-300 cursor-pointer">
+                      <span className="block px-2 py-1 text-white hover:text-red-200 hover:underline transition duration-300 cursor-pointer">
                         {subMenuItem.label}
                       </span>
                     </Link>

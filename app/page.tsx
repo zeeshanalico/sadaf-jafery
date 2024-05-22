@@ -12,7 +12,8 @@ import FloatingWhatsApp from './components/FloatingWhatsapp';
 import IntroSection from './components/IntroSection'
 import Reviews from './components/Reviews';
 import Services from './components/Services';
-import OptInForm from './components/OptInForm';
+import IstikharaServices from './components/IstikharaServices'
+
 export default function Home() {
   return (
     <>
@@ -20,15 +21,15 @@ export default function Home() {
       <InfiniteScrollText />
       <IntroSection />
       <Contact />
-      <TwoImages />
+      {/* <TwoImages /> */}
       <Services />
       <AstrologyService />
       <Reviews />
       <AboutSection />
+      {/* <R/> */}
       <FloatingWhatsApp number='+92 300 0051248' />
-      <div className="min-h-screen flex items-center justify-center bg-gray-100">
-        {/* <OptInForm /> */}
-      </div>
+      <IstikharaServices/>
+     
       <Footer />
     </>
   );
@@ -55,4 +56,5 @@ function TwoImages() {
     </div>
   </div>;
 }
+
 
