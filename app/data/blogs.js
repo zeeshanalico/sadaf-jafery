@@ -6,7 +6,7 @@ export default [
       "title": "What Is Istikhara For Marriage In Islam",
       "excerpt": "In Islam, marriage is a big, life-changing choice that is given a lot of weight. Muslims think that they should ask Allah (SWT) for help before…",
       "link": "https://www.sadafjaffery.com/what-is-istikhara-for-marriage-in-islam/",
-      "thumbnail": null
+      "thumbnail": "https://www.sadafjaffery.com/wp-content/uploads/2023/05/5.png"
     },
     {
       "date_label": "May 29, 2023",

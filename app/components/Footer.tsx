@@ -22,7 +22,8 @@ const Footer: React.FC = () => {
             <div className="w-full sm:w-1/2 md:w-1/4 mb-6">
               <h4 className="text-xl font-semibold mb-4">About Us</h4>
               <p className="text-gray-400">
-                We are committed to providing the best services. Our mission is to ...
+                We are committed to providing the best services. 
+Our mission is to illuminate the mysteries of life through Istikhara, Tarot, Numerology, and Astronomy. We strive to empower individuals with knowledge, promote progress, and foster self-discovery.
                 {/* enhance the business growth of our customers with creative design
                 and development. */}
               </p>
@@ -46,8 +47,8 @@ const Footer: React.FC = () => {
               <h4 className="text-xl font-semibold mb-4">Contact Us</h4>
               <ul className="text-gray-400">
                 <li className="mb-2">Email: info@sadafjaffery.com</li>
-                <li className="mb-2">Phone 1: +92 300 0051248</li>
-                <li className="mb-2">Phone 2: +92 300 1712141</li>
+                <li className="mb-2">Phone : +92 300 0051248</li>
+                <li className="mb-2">WhatsApp: +92 300 1712141</li>
 
                 <li className="mb-2">Address: Office, #, Pakistan</li>
                 
