@@ -9,10 +9,19 @@ const Home: React.FC = () => {
   return (
     <>
       <div className="bg-cover bg-center h-screen" style={{ backgroundImage: 'url(http://www.sadafjaffery.com/wp-content/uploads/2020/07/contact-us-t-header.jpg)' }}>
-        <div className="flex items-center justify-center h-full">
-          <h1 className="text-4xl text-white text-center">Contact us now</h1>
-        </div>
-      </div>
+  <div className="flex flex-col items-center justify-center h-full space-y-4">
+    <h1 className="text-4xl text-white text-center mb-6">Contact us now</h1>
+    <div className="flex space-x-4">
+      <a href='tel:+92 300 0051248' className="bg-purple-700 text-white px-6 py-2 hover:bg-purple-600 transition duration-300">
+        Contact
+      </a>
+      <a href='/services' className="bg-transparent outline outline-black outline-1 hover:outline-none box-border text-white px-6 py-2 hover:bg-black-700 hover:bg-purple-700 transition duration-300">
+        Services
+      </a>
+    </div>
+  </div>
+</div>
+
       <div className="bg-cover bg-center py-20" style={{ backgroundImage: 'url(http://www.sadafjaffery.com/demo/wp-content/uploads/2020/03/astro-home-clouds.png)' }}>
         <div className="container grid grid-cols-1 mx-2 md:grid-cols-3 gap-10 text-black">
           <div>
