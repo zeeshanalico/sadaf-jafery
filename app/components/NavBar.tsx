@@ -63,7 +63,7 @@ const Navbar: React.FC = () => {
               {/* {(menuItem.subMenu && (hoveredMenu === menuItem.label || clickedMenu === menuItem.label)) && (
                 <div className="z-20 absolute left-0 mt-2 w-48 bg-white shadow-lg rounded-md py-2 transition-opacity duration-200 opacity-100">
                   {menuItem.subMenu.map((subMenuItem) => (
-                    <Link key={subMenuItem.id} href={subMenuItem.url} passHref>
+                    <Link key={ MenuItem.id} href={subMenuItem.url} passHref>
                       <span className="text-nowrap block px-2 py-2 text-gray-800 hover:bg-red-200  transition duration-300 cursor-pointer">
                         {subMenuItem.label}
                       </span>

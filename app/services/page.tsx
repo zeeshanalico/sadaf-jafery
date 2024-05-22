@@ -4,7 +4,7 @@ import Image from "next/image";
 function Services() {
     return (
       <div className="pb-36" id="destiny">
-        <div className="container">
+        <div className="container m-auto">
             <div className="text-center animate-bounceUpIn m-12 flex flex-row items-center justify-center ">
               <Image
                 src="http://www.sadafjaffery.com/wp-content/uploads/2020/07/sadar-jaffare-home-page-icone.png"
