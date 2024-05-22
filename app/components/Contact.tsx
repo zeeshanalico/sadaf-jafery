@@ -1,6 +1,7 @@
 import whatsapp from '../assets/whataspp-logo.png'
 import Image from 'next/image';
 
+import img from '../assets/phone-icon.png'
 
 
 const Contact = () => {
@@ -27,9 +28,20 @@ const Contact = () => {
                     height={70}
                     className="mr-2"
                   />
-                  <span className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold text-white bg-purple-600 p-2 rounded-full text-nowrap shadow-md animate-bounce">
-                    +92 300 1712141
-                  </span>
+                  <span className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold text-white bg-purple-600 p-2 rounded-full text-nowrap shadow-md animate-bounce">+92 300 1712141</span>
+                  
+  
+                </div>
+                <div className="flex items-center justify-center ">
+                  <Image
+                    src={img}
+                    alt="WhatsApp Logo"
+                    width={50}
+                    height={50}
+                    className="ml-4"
+                  />
+                  <span className="text-lg ml-4 sm:text-xl md:text-2xl lg:text-3xl font-semibold text-white bg-purple-600 p-2 rounded-full text-nowrap shadow-md animate-bounce">+92 300 0051248</span>
+                  
   
                 </div>
                 <p className="text-md sm:text-lg text-gray-600 italic">Get you problem solved</p>

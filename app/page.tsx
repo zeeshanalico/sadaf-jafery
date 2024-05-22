@@ -1,4 +1,6 @@
 'use client'
+//whatsapp: +92 300 1712141
+//contact:  +92 300 0051248
 import Navbar from './components/NavBar'
 import Footer from './components/Footer';
 import InfiniteScrollText from './components/InfiniteScroll';
@@ -27,7 +29,7 @@ export default function Home() {
       <Reviews />
       <AboutSection />
       {/* <R/> */}
-      <FloatingWhatsApp number='+92 300 0051248' />
+      <FloatingWhatsApp number='+923001712141' />
       <IstikharaServices/>
      
       <Footer />

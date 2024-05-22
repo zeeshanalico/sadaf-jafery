@@ -1,27 +1,33 @@
 
 import Image from "next/image";
+import img from '../assets/WhatsApp-Image-2024-01-20-at-6.jpeg'
+import img1 from '../assets/WhatsApp-Image-2024-01-20-at-6 (1).jpeg'
+import img2 from '../assets/WhatsApp-Image-2024-01-20-at-6 (2).jpeg'
+import img3 from '../assets/WhatsApp-Image-2024-01-20-at-6 (3).jpeg'
+import cloud from '../assets/astro-home-clouds.png'
+
 const imageData = [
     {
-      link: 'https://www.sadafjaffery.com/wp-content/uploads/2024/01/WhatsApp-Image-2024-01-20-at-6.28.23-PM.jpeg',
-      imgSrc: 'https://www.sadafjaffery.com/wp-content/uploads/2024/01/WhatsApp-Image-2024-01-20-at-6.28.23-PM.jpeg',
+      link: img,
+      imgSrc: img,
       width: 954,
       height: 727,
     },
     {
-      link: 'https://www.sadafjaffery.com/wp-content/uploads/2024/01/WhatsApp-Image-2024-01-20-at-6.40.35-PM.jpeg',
-      imgSrc: 'https://www.sadafjaffery.com/wp-content/uploads/2024/01/WhatsApp-Image-2024-01-20-at-6.40.35-PM.jpeg',
+      link: img1,
+      imgSrc: img1,
       width: 800,
       height: 450,
     },
     {
-      link: 'https://www.sadafjaffery.com/wp-content/uploads/2024/01/WhatsApp-Image-2024-01-20-at-6.40.34-PM.jpeg',
-      imgSrc: 'https://www.sadafjaffery.com/wp-content/uploads/2024/01/WhatsApp-Image-2024-01-20-at-6.40.34-PM.jpeg',
+      link: img2,
+      imgSrc: img2,
       width: 512,
       height: 512,
     },
     {
-      link: 'https://www.sadafjaffery.com/wp-content/uploads/2024/01/WhatsApp-Image-2024-01-20-at-6.40.35-PM-1.jpeg',
-      imgSrc: 'https://www.sadafjaffery.com/wp-content/uploads/2024/01/WhatsApp-Image-2024-01-20-at-6.40.35-PM-1.jpeg',
+      link: img3,
+      imgSrc: img3,
       width: 472,
       height: 247,
     },
@@ -31,22 +37,22 @@ const imageData = [
     return (
       <div>
         <div
-          className="bg-cover"
-          style={{
-            paddingTop: '50px',
-            paddingBottom: '200px',
-            backgroundImage: 'url(http://www.sadafjaffery.com/wp-content/uploads/2020/03/astro-home-clouds.png)',
-            backgroundRepeat: 'no-repeat',
-            backgroundPosition: 'center bottom',
-          }}
-        >
+        className="bg-cover"
+        style={{
+          paddingTop: '50px',
+          paddingBottom: '200px',
+          backgroundImage: `url(${cloud.src})`,
+          backgroundRepeat: 'no-repeat',
+          backgroundPosition: 'center bottom',
+        }}
+      >
           <div className="container mx-auto">
             <div className="flex justify-center">
               <div>
                 <div className="flex justify-center">
                   <Image
                     className="mx-auto"
-                    src="http://www.sadafjaffery.com/wp-content/uploads/2020/03/astro-home-moon-cycle.png"
+                    src={img}
                     alt=""
                     width={600}
                     height={600}
@@ -79,7 +85,7 @@ const imageData = [
               {imageData.map((image, index) => (
                 <div key={index} className="w-1/3 p-2">
                   <div className="relative overflow-hidden rounded-lg">
-                    <a href={image.link} rel="lightbox[sc_gallery-1]">
+                    <a  rel="lightbox[sc_gallery-1]">
                       <Image src={image.imgSrc} alt="" width={image.width} height={image.height} />
                     </a>
                   </div>

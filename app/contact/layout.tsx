@@ -10,6 +10,8 @@ const layout = ({ children }: { children: React.ReactNode }) => {
         <div>
           <img src="https://themes.muffingroup.com/be/astrology/wp-content/uploads/2020/03/astro-footer-icon.png" alt="Footer Icon" className="mx-auto" />
           <p>Contact<br />+92 300 0051248</p>
+          <p>Whatsapp<br />+92 300 1712141</p>
+
         </div>
         <p className="mt-4">&copy; 2020 Sadaf Jaffery. All Rights Reserved. <a href="http://www.linkedin.com/in/zeeshanalico" className="hover:underline">Zeeshan Ali</a></p>
 

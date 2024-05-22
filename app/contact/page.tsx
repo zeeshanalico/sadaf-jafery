@@ -30,7 +30,7 @@ const Home: React.FC = () => {
           </div>
           <div>
             <h3 className="text-2xl">Contact</h3>
-            <p>Phone: +92 300 0051248<br />Whatsapp: +92 300 0051248<br />Email: info@sadafjaffery.com</p>
+            <p>Phone: +92 300 0051248<br />Whatsapp: +92 300 1712141<br />Email: info@sadafjaffery.com</p>
           </div>
           <div>
             <h3 className="text-2xl">Location</h3>

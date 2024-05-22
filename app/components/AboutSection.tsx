@@ -5,15 +5,14 @@ const AboutSection = () => {
     <div className="py-12 bg-red-600 text-right" id='about'>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <p className="text-gray-100 mb-4 text-center py-2 text-3xl font-bold tracking-tight sm:text-4xl">About Us</p>
-        <div className="text-white urdu p-6 text-right">
-          <h3 className="text-2xl font-bold mb-2 py-2">: ہمارا مشن</h3>
-          <p className="mb-4">
-            ہم استخارا ، ٹیرو، شماریات اور علم نجوم کے ذریعے زندگی کے اسرار کو روشن کرنے کی کوشش کرتے ہیں۔ ہمارا مشن افراد کو علم کے ساتھ بااختیار بنانا، ترقی کو فروغ دینا اور خود دریافت کرنا ہے۔
-          </p>
-          <h3 className="text-2xl font-bold mb-2 py-2">: ہماری قدریں</h3>
+        <div className="text-white p-6 text-right">
+        <div className="flex gap-5 items-center mb-4"><h2 className="text-gray-100 text-3xl font-bold tracking-tight sm:text-4xl">Our Mission</h2> <svg className="text-gray-100 h-12 w-12 opacity-25 order-first" fill="currentColor" viewBox="0 0 32 32" aria-hidden="true"><path d="M9.352 4C4.456 7.456 1 13.12 1 19.36c0 5.088 3.072 8.064 6.624 8.064 3.36 0 5.856-2.688 5.856-5.856 0-3.168-2.208-5.472-5.088-5.472-.576 0-1.344.096-1.536.192.48-3.264 3.552-7.104 6.624-9.024L9.352 4zm16.512 0c-4.8 3.456-8.256 9.12-8.256 15.36 0 5.088 3.072 8.064 6.624 8.064 3.264 0 5.856-2.688 5.856-5.856 0-3.168-2.304-5.472-5.184-5.472-.576 0-1.248.096-1.44.192.48-3.264 3.456-7.104 6.528-9.024L25.864 4z"></path></svg></div>
+
+<div className='urdu text-4xl leading-relaxed text-gray-100'>
+
+          ہم استخارا ، ٹیرو، شماریات اور علم نجوم کے ذریعے زندگی کے اسرار کو روشن کرنے کی کوشش کرتے ہیں۔ ہمارا مشن افراد کو علم کے ساتھ بااختیار بنانا، ترقی کو فروغ دینا اور خود دریافت کرنا ہے۔
+</div>
           <ul className="list-disc list-inside">
-            <li className="mb-2"><strong>ایمانداری:</strong> ہم بلند ترین امانت اور اخلاقی کارروائی کے معیاروں کا پاس رکھتے ہیں۔</li>
-            <li className="mb-2"><strong>صارف کنوں کے مرکز پر توجہ:</strong> ہمارے صارفین ہماری ہر کام کی دل کی بات ہیں۔</li>
           </ul>
         </div>
       </div>

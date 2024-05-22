@@ -56,7 +56,7 @@ const Footer: React.FC = () => {
             </div>
       
             {/* Social Media Section */}
-            <div className="w-full sm:w-1/2 md:w-1/4 mb-6">
+            {/* <div className="w-full sm:w-1/2 md:w-1/4 mb-6">
               <h4 className="text-xl font-semibold mb-4">Follow Us</h4>
               <div className="flex space-x-4">
                 <a href="https://facebook.com" className="text-gray-400 hover:text-white">
@@ -65,14 +65,14 @@ const Footer: React.FC = () => {
                 <a href="https://twitter.com" className="text-gray-400 hover:text-white">
                   <i className="fab fa-twitter">Twitter</i>
                 </a>
-                {/* <a href="https://linkedin.com" className="text-gray-400 hover:text-white">
+                <a href="https://linkedin.com" className="text-gray-400 hover:text-white">
                   <i className="fab fa-linkedin-in">LinkedIn</i>
-                </a> */}
+                </a> 
                 <a href="https://instagram.com" className="text-gray-400 hover:text-white">
                   <i className="fab fa-instagram">Instgram</i>
                 </a>
               </div>
-            </div>
+            </div> */}
           </div>
       
           {/* Footer Bottom Section */}
