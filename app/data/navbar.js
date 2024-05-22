@@ -50,7 +50,7 @@ const menuData = [
     //         { id: 48, label: "Wazifa For Job", url: "blog/wazifa-for-job/" },
     //     ],
     // },
-    { id: 151, label: "Blog", url: "blog" ,subMenu:[]},
+    { id: 151, label: "Blogs", url: "blog" ,subMenu:[]},
     { id: 146, label: "Contact", url: "contact" ,subMenu:[]},
     { id: 11, label: "Services", url: "services" ,subMenu:[]},
     { id: 16, label: "About us", url: "about" ,subMenu:[]},

@@ -1,23 +1,5 @@
 export default [
     {
-      "date_label": "June 3, 2023",
-      "author": "admin",
-      "post_date": "June 3, 2023",
-      "title": "What Is Istikhara For Marriage In Islam",
-      "excerpt": "In Islam, marriage is a big, life-changing choice that is given a lot of weight. Muslims think that they should ask Allah (SWT) for help before…",
-      "link": "https://www.sadafjaffery.com/what-is-istikhara-for-marriage-in-islam/",
-      "thumbnail": "https://www.sadafjaffery.com/wp-content/uploads/2023/05/5.png"
-    },
-    {
-      "date_label": "May 29, 2023",
-      "author": "admin",
-      "post_date": "May 29, 2023",
-      "title": "How To Pray Istikhara Step By Step In Urdu",
-      "excerpt": "استخارہ اسلام میں ایک طاقتور اور ضروری عمل ہے جو افراد کو اہم فیصلے کرتے وقت اللہ کی رہنمائی اور برکت حاصل کرنے کی اجازت دیتا…",
-      "link": "https://www.sadafjaffery.com/how-to-pray-istikhara-step-by-step-in-urdu/",
-      "thumbnail": "https://www.sadafjaffery.com/wp-content/uploads/2023/05/5.png"
-    },
-    {
       "date_label": "May 29, 2023",
       "author": "admin",
       "post_date": "May 29, 2023",
@@ -27,31 +9,85 @@ export default [
       "thumbnail": "https://www.sadafjaffery.com/wp-content/uploads/2023/05/4.png"
     },
     {
-      "date_label": "May 29, 2023",
+      "date_label": "July 17, 2023",
       "author": "admin",
-      "post_date": "May 29, 2023",
-      "title": "How To Perform Istikhara Prayer For Marriage",
-      "excerpt": "One should always seek Allah’s advice before making a major life decision like getting married. Islam has a powerful spiritual practice called istikhara that enables people…",
-      "link": "https://www.sadafjaffery.com/how-to-perform-istikhara-prayer-for-marriage/",
+      "post_date": "July 17, 2023",
+      "title": "Can Istikhara Results Change Over Time",
+      "excerpt": "Muslims who are faced with choices or doubts often pray specifically to Allah for guidance, or istikhara. It is normal to want assurance or clarification about…",
+      "link": "https://www.sadafjaffery.com/can-istikhara-results-change-over-time/",
       "thumbnail": "https://www.sadafjaffery.com/wp-content/uploads/2023/05/3.png"
     },
     {
-      "date_label": "May 29, 2023",
+      "date_label": "July 17, 2023",
       "author": "admin",
-      "post_date": "May 29, 2023",
-      "title": "Can You Do Istikhara For More Than One Thing",
-      "excerpt": "Istikhara is a potent Islamic spiritual practice that helps people to ask Allah for direction when making crucial decisions. It is a way to use prayer…",
-      "link": "https://www.sadafjaffery.com/can-you-do-istikhara-for-more-than-one-thing/",
-      "thumbnail": "https://www.sadafjaffery.com/wp-content/uploads/2023/05/2.png"
+      "post_date": "July 17, 2023",
+      "title": "How To Know Your Istikhara Is Answered",
+      "excerpt": "Muslims who are faced with choices or doubts often pray specifically to Allah for guidance, or istikhara. It is normal to want assurance or clarification about…",
+      "link": "https://www.sadafjaffery.com/how-to-know-your-istikhara-is-answered/",
+      "thumbnail": "https://www.sadafjaffery.com/wp-content/uploads/2023/05/1.png"
     },
     {
-      "date_label": "May 29, 2023",
+      "date_label": "July 17, 2023",
       "author": "admin",
-      "post_date": "May 29, 2023",
-      "title": "How To Perform Istikhara Step By Step In Urdu",
-      "excerpt": "Istikhara is a spiritual practice within Islam that seeks guidance from Allah when making important decisions. It is a means of seeking divine assistance and clarity…",
-      "link": "https://www.sadafjaffery.com/how-to-perform-istikhara-step-by-step-in-urdu/",
-      "thumbnail": "https://www.sadafjaffery.com/wp-content/uploads/2023/05/1.png"
+      "post_date": "July 17, 2023",
+      "title": "How To Do Istikhara With Tasbeeh Beads",
+      "excerpt": "Many people embrace the idea of seeking direction from a higher power when faced with uncertainty. The Muslim practice of istikhara, a particular prayer asking Allah…",
+      "link": "https://www.sadafjaffery.com/how-to-do-istikhara-with-tasbeeh-beads/",
+      "thumbnail": "https://www.sadafjaffery.com/wp-content/uploads/2023/05/3.png"
+    },
+    {
+      "date_label": "June 15, 2023",
+      "author": "admin",
+      "post_date": "June 15, 2023",
+      "title": "Jismani Kamzori Ka Rohani Ilaj",
+      "excerpt": "Jismani Kamzori Ka Rohani Ilaj: Finding Spiritual Healing for Physical Weakness Introduction:Jismani kamzori, or physical weakness, is a common concern that affects many individuals. While medical…",
+      "link": "https://www.sadafjaffery.com/jismani-kamzori-ka-rohani-ilaj/",
+      "thumbnail": "https://www.sadafjaffery.com/wp-content/uploads/2023/05/4.png"
+    },
+    {
+      "date_label": "June 15, 2023",
+      "author": "admin",
+      "post_date": "June 15, 2023",
+      "title": "Chest Infection Ka Rohani Ilaj",
+      "excerpt": "Introduction:Chest infections are common respiratory conditions that can cause discomfort and difficulty in breathing. While medical treatments and proper care are essential for recovery, some individuals…",
+      "link": "https://www.sadafjaffery.com/chest-infection-ka-rohani-ilaj/",
+      "thumbnail": "https://www.sadafjaffery.com/wp-content/uploads/2023/05/4.png"
+    },
+    {
+      "date_label": "June 15, 2023",
+      "author": "admin",
+      "post_date": "June 15, 2023",
+      "title": "Gurday Ki Pathri Ka Rohani Ilaj",
+      "excerpt": "Gurday Ki Pathri Ka Rohani Ilaj: Finding Spiritual Relief from Kidney Stones Introduction:Gurday ki pathri, commonly known as kidney stones, is a painful condition that affects…",
+      "link": "https://www.sadafjaffery.com/gurday-ki-pathri-ka-rohani-ilaj/",
+      "thumbnail": "https://www.sadafjaffery.com/wp-content/uploads/2023/05/4.png"
+    },
+    {
+      "date_label": "June 15, 2023",
+      "author": "admin",
+      "post_date": "June 15, 2023",
+      "title": "Bawaseer Ka Rohani Ilaj In Quran",
+      "excerpt": "Title: Bawaseer Ka Rohani Ilaj In Quran: Finding Spiritual Relief from Hemorrhoids Introduction:Bawaseer, commonly known as hemorrhoids or piles, is a painful and uncomfortable condition that…",
+      "link": "https://www.sadafjaffery.com/bawaseer-ka-rohani-ilaj-in-quran/",
+      "thumbnail": "https://www.sadafjaffery.com/wp-content/uploads/2023/05/5.png"
+    },
+    {
+      "date_label": "June 15, 2023",
+      "author": "admin",
+      "post_date": "June 15, 2023",
+      "title": "High Blood Pressure Ka Rohani Ilaj",
+      "excerpt": "Introduction: High blood pressure, also known as hypertension, is a common medical condition affecting millions of people worldwide. While medical treatments and lifestyle modifications play a…",
+      "link": "https://www.sadafjaffery.com/high-blood-pressure-ka-rohani-ilaj/",
+      "thumbnail": "https://www.sadafjaffery.com/wp-content/uploads/2023/05/3.png"
+    },
+    {
+      "date_label": "June 3, 2023",
+      "author": "admin",
+      "post_date": "June 3, 2023",
+      "title": "Can Someone Do Istikhara On Your Behalf",
+      "excerpt": "Istikhara is a powerful prayer in Islam that asks Allah (SWT) for guidance when making big choices. It is a way to try to get answers…",
+      "link": "https://www.sadafjaffery.com/can-someone-do-istikhara-on-your-behalf/",
+      "thumbnail": "https://www.sadafjaffery.com/wp-content/uploads/2023/05/5.png"
     }
   ]
   
