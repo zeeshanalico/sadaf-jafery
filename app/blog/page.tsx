@@ -1,5 +1,7 @@
 'use client'
+import Image from 'next/image';
 import React, { useState } from 'react';
+import img from '../assets/no-image.png'
 import blogs from '../data/blogs';
 export interface BlogPost {
     date_label: string;
@@ -8,7 +10,7 @@ export interface BlogPost {
     title: string;
     excerpt: string;
     link: string;
-    thumbnail: string | null;
+    thumbnail: string ;
 }
 
 
@@ -23,9 +25,25 @@ const BlogList = ({ posts }: { posts: BlogPost[] }) => {
         <div className="container mx-auto p-4 ">
             {posts.map((post, index) => (
                 <div key={index} className="relative bg-white shadow-md rounded-lg p-6 mb-16 flex flex-col lg:flex-row lg:items-center">
-                    {post.thumbnail && (
+                    {post.thumbnail === '' ? (
                         <div className="mb-2 lg:mb-0 lg:mr-4 lg:w-1/3">
-                            <img src={post.thumbnail} alt={post.title} className="rounded-xl w-full hover:transition-all hover:scale-105" />
+                            <Image
+                                src={img}
+                                alt={post.title}
+                                width={500}
+                                height={300}
+                                className="rounded-xl w-full hover:transition-all hover:scale-105"
+                            />
+                        </div>
+                    ) : (
+                        <div className="mb-2 lg:mb-0 lg:mr-4 lg:w-1/3">
+                            <Image
+                                src={post.thumbnail}
+                                alt={post.title}
+                                width={500}
+                                height={300}
+                                className="rounded-xl w-full hover:transition-all hover:scale-105"
+                            />
                         </div>
                     )}
                     <div className="lg:w-2/3">

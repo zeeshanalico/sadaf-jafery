@@ -5,7 +5,6 @@ export async function GET() {
   return NextResponse.json({
     host:process.env.EMAIL_HOST,
     user: process.env.EMAIL_USER,
-    pass: process.env.EMAIL_PASS,
     port : process.env.EMAIL_PORT,
     
     name: "zeeshan"
@@ -36,7 +35,7 @@ export async function POST(request: Request) {
     try {
       await transporter.sendMail({
         from: email,
-        to: process.env.EMAIL_USER, // Change this to your email address if you want to receive messages
+        to: process.env.EMAIL_USER,
         replyTo: email,
         subject: subject || 'No subject',
         text: `Name: ${name}\nEmail: ${email}\n\nMessage:\n${message}`,

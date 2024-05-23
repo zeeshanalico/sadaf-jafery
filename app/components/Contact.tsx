@@ -1,6 +1,5 @@
 import whatsapp from '../assets/whataspp-logo.png'
 import Image from 'next/image';
-
 import img from '../assets/phone-icon.png'
 
 

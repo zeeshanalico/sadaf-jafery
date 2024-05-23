@@ -42,7 +42,7 @@ export default [
       "title": "Jismani Kamzori Ka Rohani Ilaj",
       "excerpt": "Jismani Kamzori Ka Rohani Ilaj: Finding Spiritual Healing for Physical Weakness Introduction:Jismani kamzori, or physical weakness, is a common concern that affects many individuals. While medical…",
       "link": "https://www.sadafjaffery.com/jismani-kamzori-ka-rohani-ilaj/",
-      "thumbnail": "https://www.sadafjaffery.com/wp-content/uploads/2023/05/4.png"
+      "thumbnail": ""
     },
     {
       "date_label": "June 15, 2023",
@@ -60,7 +60,7 @@ export default [
       "title": "Gurday Ki Pathri Ka Rohani Ilaj",
       "excerpt": "Gurday Ki Pathri Ka Rohani Ilaj: Finding Spiritual Relief from Kidney Stones Introduction:Gurday ki pathri, commonly known as kidney stones, is a painful condition that affects…",
       "link": "https://www.sadafjaffery.com/gurday-ki-pathri-ka-rohani-ilaj/",
-      "thumbnail": "https://www.sadafjaffery.com/wp-content/uploads/2023/05/4.png"
+      "thumbnail": ""
     },
     {
       "date_label": "June 15, 2023",
@@ -87,7 +87,7 @@ export default [
       "title": "Can Someone Do Istikhara On Your Behalf",
       "excerpt": "Istikhara is a powerful prayer in Islam that asks Allah (SWT) for guidance when making big choices. It is a way to try to get answers…",
       "link": "https://www.sadafjaffery.com/can-someone-do-istikhara-on-your-behalf/",
-      "thumbnail": "https://www.sadafjaffery.com/wp-content/uploads/2023/05/5.png"
+      "thumbnail": ""
     }
   ]
   
