@@ -1,5 +1,6 @@
 'use client'
 import React from 'react';
+import FloatingWhatsApp from '../components/FloatingWhatsapp';
 import Navbar from '../components/NavBar';
 const layout = ({ children }: { children: React.ReactNode }) => {
   return (
@@ -13,6 +14,7 @@ const layout = ({ children }: { children: React.ReactNode }) => {
           <p>Whatsapp<br />+92 300 1712141</p>
 
         </div>
+        <FloatingWhatsApp number='+923001712141' />
         <p className="mt-4">&copy; 2020 Sadaf Jaffery. All Rights Reserved. <a href="http://www.linkedin.com/in/zeeshanalico" className="hover:underline">Zeeshan Ali</a></p>
 
       </footer>

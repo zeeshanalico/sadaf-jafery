@@ -33,7 +33,7 @@ Our mission is to illuminate the mysteries of life through Istikhara, Tarot, Num
             <div className="w-full sm:w-1/2 md:w-1/4 mb-6">
               <h4 className="text-xl font-semibold mb-4">Navigation</h4>
               <ul className="text-gray-400">
-                <li className="mb-2"><a href="/aboutus" className="hover:underline">About</a></li>
+                {/* <li className="mb-2"><a href="/aboutus" className="hover:underline">About</a></li> */}
                 <li className="mb-2"><a href="/blog" className="hover:underline">Blog</a></li>
                 <li className="mb-2"><a href="/services" className="hover:underline">Services</a></li>
                 <li className="mb-2"><a href="/contact" className="hover:underline">Contact</a></li>
