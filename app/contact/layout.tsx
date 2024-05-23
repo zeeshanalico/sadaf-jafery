@@ -7,8 +7,8 @@ const layout = ({ children }: { children: React.ReactNode }) => {
       <Navbar />
       <main className="flex-grow">{children}</main>
       <footer className="bg-orange-900 text-white p-4 text-center">
-        <div>
-          <img src="https://themes.muffingroup.com/be/astrology/wp-content/uploads/2020/03/astro-footer-icon.png" alt="Footer Icon" className="mx-auto" />
+        <div className=''>
+          <img src="/contactAsset/astro-footer-icon.png" alt="Footer Icon" className="mx-auto" />
           <p>Contact<br />+92 300 0051248</p>
           <p>Whatsapp<br />+92 300 1712141</p>
 

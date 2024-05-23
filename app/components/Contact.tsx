@@ -2,6 +2,8 @@ import whatsapp from '../assets/whataspp-logo.png'
 import Image from 'next/image';
 import img from '../assets/phone-icon.png'
 
+import bg from '/contactAsset/contact-us-t-header.jpg'
+import footericon from '/contactAsset/astro-footer-icon.jpg'
 
 const Contact = () => {
     return (

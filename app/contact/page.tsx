@@ -16,22 +16,22 @@ const Home: React.FC = () => {
     setLoading(true);
     setResponse(null);
     setButtonText('Sending...');
-  
+
     const data = {
       name,
       email,
       subject,
       message,
     };
-    
+
     try {
       const response = await axios.post('/api', data, {
         headers: {
           'Content-Type': 'application/json',
         },
       });
-  
-  
+
+
       if (response.status === 200) {
         setResponse(response.data.message);
         setButtonText('✓');
@@ -56,10 +56,10 @@ const Home: React.FC = () => {
       setLoading(false);
     }
   };
-  
+
   return (
     <>
-      <div className="bg-cover bg-center h-screen" style={{ backgroundImage: 'url(http://www.sadafjaffery.com/wp-content/uploads/2020/07/contact-us-t-header.jpg)' }}>
+      <div className="bg-cover bg-center h-screen bg-[url('/contactAsset/contact-us-t-header.jpg')]">
         <div className="flex flex-col items-center justify-center h-full space-y-4">
           <h1 className="text-4xl text-white text-center mb-6">Contact us now</h1>
           <div className="flex space-x-4">
@@ -73,7 +73,7 @@ const Home: React.FC = () => {
         </div>
       </div>
 
-      <div className="bg-cover bg-center py-20" style={{ backgroundImage: 'url(http://www.sadafjaffery.com/demo/wp-content/uploads/2020/03/astro-home-clouds.png)' }}>
+      <div className="bg-cover bg-center py-20 "  >
         <div className="container grid grid-cols-1 mx-2 md:grid-cols-3 gap-10 text-black">
           <div>
             <h3 className="text-2xl">Opening hours</h3>

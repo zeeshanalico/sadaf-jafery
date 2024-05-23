@@ -7,7 +7,7 @@ function Services() {
         <div className="container m-auto">
             <div className="text-center animate-bounceUpIn m-12 flex flex-row items-center justify-center ">
               <Image
-                src="http://www.sadafjaffery.com/wp-content/uploads/2020/07/sadar-jaffare-home-page-icone.png"
+                src="/servicesAsset/sadar-jaffare-home-page-icone.png"
                 alt="sadar-jaffare-home-page-icone"
                 width={491}
                 height={491}

@@ -1,33 +1,33 @@
 
 const servicesData = [
     {
-      link: 'http://www.sadafjaffery.com/contact/',
-      imgSrc: 'http://www.sadafjaffery.com/wp-content/uploads/2020/07/servcire-1.png',
+      link: '/services',
+      imgSrc: '/servicesAsset/servcire-1.png',
       title: 'Divorce Issue',
     },
     {
-      link: 'http://www.sadafjaffery.com/contact/',
-      imgSrc: 'http://www.sadafjaffery.com/wp-content/uploads/2020/07/servies-2.jpg',
+      link: '/services',
+      imgSrc: '/servicesAsset/servies-2.jpeg',
       title: 'Family Issues',
     },
     {
-      link: 'http://www.sadafjaffery.com/contact/',
-      imgSrc: 'http://www.sadafjaffery.com/wp-content/uploads/2020/07/servies3.jpg',
+      link: '/services',
+      imgSrc: '/servicesAsset/servies3.jpeg',
       title: 'Love Marriage',
     },
     {
-      link: 'http://www.sadafjaffery.com/contact/',
-      imgSrc: 'http://www.sadafjaffery.com/wp-content/uploads/2020/07/servies4.jpg',
+      link: '/services',
+      imgSrc: '/servicesAsset/servies4.jpeg',
       title: 'Success in Exams',
     },
     {
-      link: 'http://www.sadafjaffery.com/contact/',
-      imgSrc: 'http://www.sadafjaffery.com/wp-content/uploads/2020/07/servies5.jpg',
+      link: '/services',
+      imgSrc: '/servicesAsset/servies5.jpeg',
       title: 'Breakup',
     },
     {
-      link: 'http://www.sadafjaffery.com/contact/',
-      imgSrc: 'http://www.sadafjaffery.com/wp-content/uploads/2020/07/servies6.jpg',
+      link: '/services',
+      imgSrc: '/servicesAsset/servies6.jpeg',
       title: 'Children Marriage Issues',
     },
   ];
