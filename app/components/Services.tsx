@@ -1,8 +1,4 @@
 import React from 'react'
-import Image from 'next/image'
-import img from './../assets/wedding-hands.jpg'
-import kalajado from '../assets/kaljadoo.jpg'
-import divorce from '../assets/divorce.jpg'
 const Services = () => {
   return (
     <div><div className=" bg-gray-50 py-16 sm:py-24">
@@ -18,9 +14,9 @@ const Services = () => {
       <div className="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-3">
         <article className="flex flex-col items-start justify-between">
           <div className="relative w-full">
-            <Image
-              src={kalajado}
-              alt="Service Image"
+            <img
+              src='/kaljadoo.jpg'
+              alt="Service img"
               className="aspect-[16/9] w-full rounded-2xl object-cover sm:aspect-[2/1] lg:aspect-[3/2]"
               width={672}
               height={448}
@@ -38,8 +34,8 @@ const Services = () => {
         </article>
         <article className="flex flex-col items-start justify-between">
           <div className="relative w-full">
-            <Image
-              src={img} alt="Service Image"
+            <img
+              src='/wedding-hands.jpg' alt="Service img"
               className="aspect-[16/9] w-full rounded-2xl object-cover sm:aspect-[2/1] lg:aspect-[3/2]"
               width={672}
               height={448}
@@ -57,8 +53,8 @@ const Services = () => {
         </article>
         <article className="flex flex-col items-start justify-between">
           <div className="relative w-full">
-            <Image
-              src={divorce} alt="Service Image"
+            <img
+              src='/divorce.jpg' alt="Service img"
               className="aspect-[16/9] w-full rounded-2xl object-cover sm:aspect-[2/1] lg:aspect-[3/2]"
               width={672}
               height={448}

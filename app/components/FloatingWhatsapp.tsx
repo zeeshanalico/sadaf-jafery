@@ -1,8 +1,6 @@
 // components/FloatingWhatsApp.js
 
 import React from 'react';
-import Image from 'next/image';
-import logo from '../assets/WhatsApp-Logo.png'
 import PropTypes from 'prop-types';
 
 const FloatingWhatsApp = ({ number }: { number: string }) => {
@@ -13,8 +11,8 @@ const FloatingWhatsApp = ({ number }: { number: string }) => {
 
     return (
         <div className="fixed bottom-4 right-4 z-50 cursor-pointer " onClick={handleClick}>
-            <Image
-                src={logo}
+            <img
+                src='/WhatsApp-Logo.png'
                 alt="WhatsApp Logo"
                 width={100}
                 height={100}

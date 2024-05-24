@@ -1,29 +1,15 @@
-import whatsapp from '../assets/whataspp-logo.png'
-import Image from 'next/image';
-import img from '../assets/phone-icon.png'
-
-import bg from '/contactAsset/contact-us-t-header.jpg'
-import footericon from '/contactAsset/astro-footer-icon.jpg'
-
 const Contact = () => {
     return (
       <>
         <div className="flex flex-col sm:flex-row justify-between items-center p-8 bg-gray-50 ">
           <div className="flex items-center space-x-4 mb-8 sm:mb-0">
             <div className="flex-shrink-0">
-              {/* <Image
-                  src="/path-to-your-professor-logo.png" // Make sure to update this path
-                  alt="Professor Logo"
-                  width={50}
-                  height={50}
-                  className="rounded-full"
-                /> */}
             </div>
             <div className='bg-gray-50'>
               <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-800">
                 <div className="flex items-center justify-center ">
-                  <Image
-                    src={whatsapp}
+                  <img
+                    src='/whataspp-logo.png'
                     alt="WhatsApp Logo"
                     width={70}
                     height={70}
@@ -34,8 +20,8 @@ const Contact = () => {
   
                 </div>
                 <div className="flex items-center justify-center ">
-                  <Image
-                    src={img}
+                  <img
+                    src='/phone-icon.png'
                     alt="WhatsApp Logo"
                     width={50}
                     height={50}

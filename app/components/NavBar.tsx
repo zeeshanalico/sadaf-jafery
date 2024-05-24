@@ -1,8 +1,6 @@
 import { useState } from 'react';
 import Link from 'next/link';
 import menuData from '../data/navbar';
-import logo from '../assets/logo.png'
-import Image from 'next/image';
 import scrolltosection from '../utils/scrolltosection'
 
 const Navbar: React.FC = () => {
@@ -27,7 +25,7 @@ const Navbar: React.FC = () => {
       <div className="container mx-auto flex justify-between items-center ">
         <Link href="/" passHref>
           <span className="text-white font-semibold cursor-pointer text-3xl">
-            <Image src={logo} alt="logo Rohani Amil" width={70} height={50} className="" />
+            <img src='/logo.png' alt="logo Rohani Amil" width={70} height={50} className="" />
 
           </span>
         </Link>

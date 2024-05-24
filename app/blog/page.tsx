@@ -1,7 +1,5 @@
 'use client'
-import Image from 'next/image';
 import React, { useState } from 'react';
-import img from '../assets/no-image.png'
 import blogs from '../data/blogs';
 export interface BlogPost {
     date_label: string;
@@ -27,8 +25,8 @@ const BlogList = ({ posts }: { posts: BlogPost[] }) => {
                 <div key={index} className="relative bg-white shadow-md rounded-lg p-6 mb-16 flex flex-col lg:flex-row lg:items-center">
                     {post.thumbnail === '' ? (
                         <div className="mb-2 lg:mb-0 lg:mr-4 lg:w-1/3">
-                            <Image
-                                src={img}
+                            <img
+                                src='/no-image.png'
                                 alt={post.title}
                                 width={500}
                                 height={300}
@@ -37,7 +35,7 @@ const BlogList = ({ posts }: { posts: BlogPost[] }) => {
                         </div>
                     ) : (
                         <div className="mb-2 lg:mb-0 lg:mr-4 lg:w-1/3">
-                            <Image
+                            <img
                                 src={post.thumbnail}
                                 alt={post.title}
                                 width={500}

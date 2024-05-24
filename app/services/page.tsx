@@ -1,12 +1,11 @@
 
 import servicesData from "../data/servicesData";
-import Image from "next/image";
 function Services() {
     return (
       <div className="pb-36" id="destiny">
         <div className="container m-auto">
             <div className="text-center animate-bounceUpIn m-12 flex flex-row items-center justify-center ">
-              <Image
+              <img
                 src="/servicesAsset/sadar-jaffare-home-page-icone.png"
                 alt="sadar-jaffare-home-page-icone"
                 width={491}
@@ -36,7 +35,7 @@ function Services() {
       <div className="text-center animate-zoomIn  m-auto">
         <a href={link} className="block mb-4">
           <div className=" overflow-hidden">
-            <Image
+            <img
               src={imgSrc}
               alt={title}
               width={339}

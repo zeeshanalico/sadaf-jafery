@@ -1,9 +1,4 @@
 import React from 'react'
-import Image from 'next/image'
-import img from './../assets/banner1.jpg'
-import david from '../assets/david.jpg'
-import methew from '../assets/mathew.jpg'
-import terrance from '../assets/terrance.jpg'
 
 const Reviews = () => {
     return (
@@ -26,8 +21,8 @@ const Reviews = () => {
                 </div>
                 <div className="lg:gap-x-8 mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-x-6 gap-y-20 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols-3">
                     <div className="sm:gap-x-6 sm:space-y-0 flex gap-x-4 sm:flex-col">
-                        <Image
-                            src={methew}
+                        <img
+                            src='/mathew.jpg'
                             alt="Client Photo"
                             className="sm:w-32 sm:h-32 w-16 h-16 rounded-full bg-gray-100"
                             width={120}
@@ -41,8 +36,8 @@ const Reviews = () => {
                         </div>
                     </div>
                     <div className="sm:gap-x-6 sm:space-y-0 flex gap-x-4 sm:flex-col">
-                        <Image
-                            src={terrance}
+                        <img
+                            src='/terrance.jpg'
                             alt="Client Photo"
                             className="sm:w-32 sm:h-32 w-16 h-16 rounded-full bg-gray-100"
                             width={120}
@@ -56,8 +51,8 @@ const Reviews = () => {
                         </div>
                     </div>
                     <div className="sm:gap-x-6 sm:space-y-0 flex gap-x-4 sm:flex-col">
-                        <Image
-                            src={david}
+                        <img
+                            src='/david.jpg'
                             alt="Client Photo"
                             className="sm:w-32 sm:h-32 w-16 h-16 rounded-full bg-gray-100"
                             width={120}

@@ -1,39 +1,23 @@
-// components/Footer.tsx
-
-// import Image from 'next/image';
-// import img from '../assets/Rohaniyat.jpg'
 import React from 'react';
 
 const Footer: React.FC = () => {
   return (
     <div >
-        {/* <Image
-            src={img}
-            alt="Left Side Image"
-            width={300}
-            height={300}
-            className="w-full object-cover py-1"
- 
-          /> */}
       <footer className="bg-orange-950 text-white py-10">
         <div className="container mx-auto px-4 md:px-8">
           <div className="flex flex-wrap justify-between">
-            {/* About Us Section */}
             <div className="w-full sm:w-1/2 md:w-1/4 mb-6">
               <h4 className="text-xl font-semibold mb-4">About Us</h4>
               <p className="text-gray-400">
                 We are committed to providing the best services. 
 Our mission is to illuminate the mysteries of life through Istikhara, Tarot, Numerology, and Astronomy. We strive to empower individuals with knowledge, promote progress, and foster self-discovery.
-                {/* enhance the business growth of our customers with creative design
-                and development. */}
+           
               </p>
             </div>
       
-            {/* Navigation Section */}
             <div className="w-full sm:w-1/2 md:w-1/4 mb-6">
               <h4 className="text-xl font-semibold mb-4">Navigation</h4>
               <ul className="text-gray-400">
-                {/* <li className="mb-2"><a href="/aboutus" className="hover:underline">About</a></li> */}
                 <li className="mb-2"><a href="/blog" className="hover:underline">Blog</a></li>
                 <li className="mb-2"><a href="/services" className="hover:underline">Services</a></li>
                 <li className="mb-2"><a href="/contact" className="hover:underline">Contact</a></li>

@@ -1,6 +1,3 @@
-import Image from 'next/image';
-import img from './../assets/banner1.jpg';
-import whatsapp from '../assets/whataspp-logo.png'
 
 const IntroSection = () => {
   return (
