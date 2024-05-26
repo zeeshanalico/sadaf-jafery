@@ -10,9 +10,9 @@ const FloatingWhatsApp = ({ number }: { number: string }) => {
     };
 
     return (
-        <div className="fixed bottom-4 right-4 z-50 cursor-pointer " onClick={handleClick}>
+        <div className="fixed bottom-4 right-4 z-50 cursor-pointe" onClick={handleClick}>
             <img
-                src='/WhatsApp-Logo.png'
+                src='/whtsapplogo.png'
                 alt="WhatsApp Logo"
                 width={100}
                 height={100}

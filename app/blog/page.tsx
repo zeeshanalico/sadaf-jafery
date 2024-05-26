@@ -65,8 +65,6 @@ const BlogList = ({ posts }: { posts: BlogPost[] }) => {
                                 +92 300 0051248
                             </div>
                             <div className="flex items-center space-x-2 my-2">
-                                <a href={``} target="_blank" rel="noopener noreferrer" className="text-green-500 hover:text-green-600">
-                                </a>
                                 <div onClick={handleClick} className="text-blue-500 hover:text-blue-600">
                                     <span className="[&>svg]:h-7 [&>svg]:w-7">
                                         <svg

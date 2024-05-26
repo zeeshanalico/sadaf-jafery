@@ -18,7 +18,7 @@ const IntroSection = () => {
 
       <div className="relative z-20 flex flex-col lg:flex-row lg:items-center lg:space-x-8 gap-10 p-10">
         <div className="lg:w-2/3 flex flex-col justify-center  animate-bounceUpIn">
-          <h2 className="text-white text-3xl font-bold tracking-tight hover:cursor-pointer sm:text-4xl urdu hover:text-red-600 self-end transition-colors duration-300">
+          <h2 className="text-white font-bold tracking-tight hover:cursor-pointer text-end text-2xl md:text-4xl urdu hover:text-red-600 self-end transition-colors duration-300">
             پروفیسر عامل سیدہ صدف جعفری
           </h2>
           <div className="text-white text-base leading-7 mt-12 ">
